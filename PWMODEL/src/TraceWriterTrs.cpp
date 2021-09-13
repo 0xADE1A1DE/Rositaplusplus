@@ -12,7 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <bits/stdint-uintn.h>
 #include <iostream>
 #include <fstream>
 #include "../thirdparty/trs/trs.h"

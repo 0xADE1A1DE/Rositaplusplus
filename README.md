@@ -5,9 +5,12 @@ README
 
 The following packages need to be installed before building Rosita++.
 
-+ Boost filesystem (package `libboost-filesystem-dev` in Ubuntu)
-+ Numpy
-+ Pandas
++ A C++11 compliant compiler
++ CMake
++ Python3
++ Boost filesystem (package `libboost-filesystem-dev` in Ubuntu/Debian)
++ Numpy (Python package)
++ Pandas (Python package)
 
 Once these are installed, run the following command from this repository's root
 directory to build Rosita++ and it's dependencies. Our testing was done on

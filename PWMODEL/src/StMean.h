@@ -16,7 +16,6 @@
 
 #include "Stackable.h"
 #include "PImpl.h"
-#include <bits/stdint-uintn.h>
 struct st_mean_priv_t;
 
 class st_mean_t : public stackable_t
