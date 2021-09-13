@@ -1,0 +1,21 @@
+--- present_masking.s	2021-06-23 20:45:45.449013273 +0930
++++ present_masking.s	2021-06-23 20:46:50.161858699 +0930
+@@ -54,12 +54,17 @@
+ 	cmp	r2, r3
+ 	bne	.L2
+ 	bl	starttrigger
+-	ldr	r5, .L12
++	ldr	r5, .LXX
+ 	.syntax divided
+ @ 62 "present_masking.c" 1
+ 	movs r3, r5
+ movs r7, r7
+ movs r7, r7
++	b .label11
++	.align 2
++.LXX:
++	.word T
++.label11:
+ movs r7, r7
+ movs r7, r7
+ movs r7, r7

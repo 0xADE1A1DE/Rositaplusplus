@@ -1,0 +1,6 @@
+{
+    "analysis":"rosita,biv,first-order-ttest",
+    "terms_dump":"/home/madura/wrk/rositapp-dist/ELMO/test/main/terms-dump.npy",
+    "ntraces":10000,
+    "nsamples":206
+}
