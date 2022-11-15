@@ -79,5 +79,12 @@ can be tuned in `Config.py` default is 4 threads.
         ./ROSITAPP/rosita[-biv|-triv] -a ./TESTS/xoodoo/build_3share_e.json | less -S
 
 
-
+## Acknowledgments
+This work was supported by:
+* ARC Discovery Early Career Researcher Award number DE200101577
+* ARC Discovery Projects numbers DP200102364 and DP210102670
+* the Blavatnik ICRC at Tel-Aviv University
+* Data61. CSIRO
+* European Commission through the ERC Starting Grant 805031 (EPOQUE) of Peter Schwabe
+* Gifts from Facebook, Google and Intel.
 
